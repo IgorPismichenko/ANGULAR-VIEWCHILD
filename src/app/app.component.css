@@ -1,0 +1,58 @@
+:host{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #2F4F4F;
+    color: aliceblue;
+    height: 100px;
+}
+h3{
+    margin: 0;
+    font-size: 28pt;
+}
+main{
+    text-align: center;
+}
+.mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 300px;
+    height: 360px;
+    margin-top: 10px;
+}
+.picDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+.textDiv{
+    width: 1000px;
+    height: 350px;
+    margin-top: 10px;
+}
+p{
+    margin: 0;
+    font-size: 14pt;
+}
+dt{
+    font-size: 22pt;
+}
+dd{
+    font-size: 14pt;
+    margin-top: 10px;
+}
+.footDiv{
+    text-align: center;
+    margin-top: 40px;
+}
+input{
+    margin-left: 200px;
+}

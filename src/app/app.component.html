@@ -1,0 +1,18 @@
+<info-comp></info-comp>
+<div class="footDiv">
+    <div class="mainDiv">
+        <div>
+        <input type="text" [(ngModel)]="newQuote"/>
+        <button (click)="addQuote(newQuote)">Додати цитату</button><br/>
+        </div>
+        <div>
+        <input type="text" [(ngModel)]="newRef"/>
+        <button (click)="addRef(newRef)">Додати посилання</button><br/>
+        </div>
+    </div>
+    <div class="mainDiv">
+        <quotes-comp></quotes-comp>
+        <ref-comp></ref-comp>
+    </div>
+</div>
+
